@@ -1,6 +1,6 @@
 # keyboard-tones
 
-Simple module that maps 12 tones to the keyboard
+Simple npm module that maps the 12 musical tones to the keyboard
 
     npm install --save keyboard-tones
 

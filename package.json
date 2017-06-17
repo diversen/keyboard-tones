@@ -1,0 +1,23 @@
+{
+  "name": "keyboard-tones",
+  "version": "1.0.0",
+  "description": "Simple npm module that maps the 12 musical tones to the keyboard",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diversen/keyboard-tones.git"
+  },
+  "keywords": [
+    "keyboard-tones",
+    "keyboard-tones-mapping"
+  ],
+  "author": "dennis iversen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/diversen/keyboard-tones/issues"
+  },
+  "homepage": "https://github.com/diversen/keyboard-tones#readme"
+}
