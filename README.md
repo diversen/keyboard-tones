@@ -27,20 +27,30 @@ On the keyboard, the 12 tones are found here:
     j
 
 ## Example
-~~~php
+
+Include the script (https://wzrd.in is a great service). In the browser you can use: 
+
+    <script src="https://wzrd.in/standalone/keyboard-tones@latest"></script>
+
+In node: 
+
+    var keyboardTones = require('keyboard-tones');
+
+~~~javascript
+
         document.addEventListener("keydown", function (e){
             var k = e.key;
             if (k in keyboardTones) {
                 // Octave = 3
                 let note = keyboardTones[k] + '3';
-                parseNoteon(note);
+                parseNoteon(note); // Write your own function
             }
         });
         
         document.addEventListener("keyup", function (e){
             var k = e.key;
             let note = keyboardTones[k] + '3';
-            parseNoteoff(note);
+            parseNoteoff(note); // // Write your own function
         });
 ~~~
 ## License
