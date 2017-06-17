@@ -27,7 +27,7 @@ On the keyboard, the 12 tones are found here:
     j
 
 ## Example
-
+~~~php
         document.addEventListener("keydown", function (e){
             var k = e.key;
             if (k in keyboardTones) {
@@ -42,7 +42,7 @@ On the keyboard, the 12 tones are found here:
             let note = keyboardTones[k] + '3';
             parseNoteoff(note);
         });
-
+~~~
 ## License
 
 MIT © Dennis Iversen
