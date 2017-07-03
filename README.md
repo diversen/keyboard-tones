@@ -28,9 +28,9 @@ On the keyboard, the 12 tones are found here:
 
 ## Example
 
-Include the script (https://wzrd.in is a great service). In the browser you can use: 
+In the browser you can use: 
 
-    <script src="https://wzrd.in/standalone/keyboard-tones@latest"></script>
+    <script src="dist/keyboardTones.js"></script>
 
 In node: 
 
