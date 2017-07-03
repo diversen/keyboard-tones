@@ -1,6 +1,6 @@
 {
   "name": "keyboard-tones",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple npm module that maps the 12 musical tones to the keyboard",
   "main": "index.js",
   "scripts": {
